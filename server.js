@@ -8,6 +8,8 @@ const app = express();
 // Init Middleware
 app.use(express.json());
 
+app.use('/api/users', require('./routes/api/users'));
+
 
 
 
